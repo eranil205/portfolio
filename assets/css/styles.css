@@ -34,9 +34,9 @@
   --success-500: #22c58a;
 
   /* Typography */
-  --font-display: "Alfa Slab One", "Playfair Display", Georgia, serif;
+  /* --font-display: "Alfa Slab One", "Playfair Display", Georgia, serif;
   --font-body: "Playfair Display", Georgia, "Segoe UI", serif;
-  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace; */
 
   /* Letter-spacing scale — one shared system for every text style on the site.
      Serif/slab display faces (Alfa Slab One, Playfair Display) read best at
@@ -101,7 +101,7 @@ input, textarea, select { font: inherit; }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: 300;
   line-height: 1.15;
   margin: 0;
   letter-spacing: var(--tracking-normal);
@@ -296,7 +296,7 @@ section { position: relative; }
 .nav-list { display: flex; align-items: center; gap: 22px; flex-wrap: nowrap; }
 .nav-list a {
   font-family: var(--font-display);
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 400;
   color: rgba(255,255,255,0.72);
   transition: color var(--dur-fast) var(--ease);
@@ -376,7 +376,7 @@ section { position: relative; }
   position: relative;
   background: radial-gradient(ellipse 120% 80% at 15% -10%, #131c3d 0%, var(--navy-950) 55%), var(--navy-950);
   color: #fff;
-  padding: 168px 0 110px;
+  padding: 120px 0 70px;
   overflow: hidden;
   isolation: isolate;
 }
@@ -626,7 +626,7 @@ section { position: relative; }
   color: var(--blue-400);
 }
 .flow-node-icon svg { width: 24px; height: 24px; }
-.flow-node span { font-size: 12px; color: rgba(255,255,255,0.75); text-align: center; font-weight: 500; }
+.flow-node span { font-size: 13px; color: rgba(255,255,255,0.75); text-align: center; font-weight: 500; }
 .flow-arrow {
   align-self: center;
   color: var(--ink-400);
@@ -684,7 +684,7 @@ section { position: relative; }
 .skill-card-desc { color: var(--ink-500); font-size: 14px; margin-bottom: 18px; }
 .skill-tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .skill-tag {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 500;
   padding: 6px 11px;
   border-radius: var(--radius-full);
@@ -779,7 +779,7 @@ section { position: relative; }
 .service-card h3 { font-size: 19px; margin-bottom: 10px; }
 .service-card p { color: var(--ink-500); font-size: 14.5px; margin-bottom: 18px; }
 .service-caps { display: grid; gap: 8px; margin-bottom: 24px; }
-.service-caps li { font-size: 13px; color: var(--ink-700); display: flex; gap: 8px; align-items: center; }
+.service-caps li { font-size: 14px; color: var(--ink-700); display: flex; gap: 8px; align-items: center; }
 .service-caps li svg { width: 14px; height: 14px; color: var(--blue-500); flex-shrink: 0; }
 .service-more {
   margin-top: auto;
