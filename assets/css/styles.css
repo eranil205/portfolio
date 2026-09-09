@@ -148,7 +148,7 @@ section { position: relative; }
 /* ============================================================
    Section scaffolding
    ============================================================ */
-.section { padding: 120px 0; }
+.section { padding: 50px 0; }
 .section--tight { padding: 96px 0; }
 .section-light { background: var(--paper-0); }
 .section-alt { background: var(--paper-50); }
